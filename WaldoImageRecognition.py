@@ -3,9 +3,9 @@ import cv2
 import numpy as np
 from matplotlib import pyplot as plt
 
-img_rgb = cv2.imread('./src/WaldoMap.jpg')
+img_rgb = cv2.imread('WWaldo/src/WaldoMap.jpg')
 img_gray = cv2.cvtColor(img_rgb, cv2.COLOR_BGR2GRAY)
-template = cv2.imread('./src/Waldo.png',0)
+template = cv2.imread('WWaldo/src/Waldo.png',0)
 # saves the width and height of the template into 'w' and 'h'
 w, h = template.shape[::-1]
 
